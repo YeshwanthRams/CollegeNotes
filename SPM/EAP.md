@@ -104,9 +104,25 @@ $ FP = 46.01 $
 
 So, the total Function Points, adjusted for complexity with this CAF, would be approximately 46.
 
+## SLOC
+**Source Lines Of Code** is a software metric used to measure the size of a software program by counting the number of lines in the program's source code.
 
+SLOC is typically used to determine the amount of effort that will be required to develop a program, as well as programming productivity and effort once the software is produced
 
+### Types of SLOC
 
+#### Physical SLOC 
+> Physical SLOC calculates total number of lines a source code including inline comments , blank lines etc... 
+> - it is easier to measure but very sentitive to coding conventions and code formatting
+
+#### Logical SLOC 
+> Logical SLOC only calculates executable code expressions (such as operators, functions, etc...)
+> - while Logical SLOC is less effective to code formatting, it is hard to measure.
+
+### Advantages 
+
+> [!FAQ]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden until it is expanded.
 
 
 
