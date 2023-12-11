@@ -121,19 +121,75 @@ SLOC is typically used to determine the amount of effort that will be required t
 
 ### Advantages 
 
-> [!FAQ]- Are callouts foldable?
-> Yes! In a foldable callout, the contents are hidden until it is expanded.
+- **Scope of automation** : Count the lines of code can be automated 
+- **Intuitive Metric** : Line of Code serves as an intuitive metric for measuring the size of software due to the fact that it can be seen and the effect of it can be visualized.
 
+### Disadvantages
+- **Lack of Accountability** : Not useful to measure the productivity of a project using only result from the coding phase, which usually accounts for only 30% to 35% of the overall effort.
 
+- **Developer’s Experience** : An experienced developer may implement certain functionality in fewer lines of code than another developer of relatively less experience does, though they use the same language.
 
+- **Difference in Languages** : Different programming languages take different number of LOC to implement same funtionality
 
+- **Advent of GUI Tools** : with GUI-based programming languages like visual basic developers write less code
 
+## Basic COCOMO
+The Basic COCOMO model calculates software development effort as a function of program size. The model uses the Source Lines of Code (SLOC) as a measure of program size and applies a mathematical formula to estimate the effort required. Here’s how you can calculate it:
 
+1. **Determine the Size in SLOC**: First, you need to quantify the size of your software project in terms of Source Lines of Code. This step involves counting the number of lines of code that will be written for the project.
 
+2. **Apply the Basic COCOMO Model Formula**: The Basic COCOMO model estimates the effort (in person-months) using the following formula:
 
+   $ \text{Effort} = a \times (\text{KLOC})^b $
 
+   In this formula:
+   - $( \text{Effort} )$ is the software development effort in person-months.
+   - $( a )$ and $( b )$ are empirically derived constants. For the Basic COCOMO model, $( a )$ typically equals 2.4, and $( b )$ equals 1.05.
+   - $( \text{KLOC} )$ (Kilo Lines of Code) is the estimated number of thousands of lines of code.
 
+   For example, if your project is estimated to be 10,000 lines of code (or 10 KLOC), you would calculate the effort as:
 
+   $ \text{Effort} = 2.4 \times (10)^{1.05} $
 
+3. **Calculate the Duration and Staffing**:
+   The Basic COCOMO model also provides ways to estimate the project duration and the number of people required. The duration can be calculated using the formula:
 
+   $ \text{Duration} = c \times (\text{Effort})^d $
 
+   Where $( c )$ and $(  d )$ are constants (typically, $(  c = 2.5 )$ and $( d = 0.38 )$ for the Basic model). The number of people required (staffing) is simply the effort divided by the duration.
+
+It’s important to note that the Basic COCOMO model is quite simplistic and is best used for rough, early-stage estimates of software projects. It does not account for various factors like team capability, technology novelty, and other project-specific attributes, which are considered in more advanced versions of the COCOMO model.
+
+## UseCase Based Estimation
+To provide an example of use-case based estimation, let's consider a hypothetical online shopping system. Here are the steps we would take:
+
+1. **Identify Actors**:
+   - Customers
+   - Admin
+
+2. **Identify Use Cases**:
+   - Customers: Browse Items, Add to Cart, Checkout
+   - Admin: Add Item, Remove Item, Process Orders
+
+3. **Classify Actors and Use Cases**:
+   - Actors: Simple (Customers), Average (Admin)
+   - Use Cases: Simple (Browse Items), Average (Add to Cart, Add Item, Remove Item), Complex (Checkout, Process Orders)
+
+4. **Assign Weights**:
+   - Actor Weights: Simple = 1, Average = 2, Complex = 3
+   - Use Case Weights: Simple = 5, Average = 10, Complex = 15
+
+5. **Calculate Unadjusted Use Case Points (UUCP)**:
+   - Actors: (1 Simple * 1) + (1 Average * 2) = 3
+   - Use Cases: (1 Simple * 5) + (4 Average * 10) + (2 Complex * 15) = 115
+
+6. **Determine Technical Complexity Factors (TCF)**:
+   - Assume a TCF value based on technical aspects such as performance, security, etc. (e.g., 1.2)
+
+7. **Determine Environmental Complexity Factors (ECF)**:
+   - Assume an ECF value based on environmental aspects such as team experience (e.g., 0.8)
+
+8. **Calculate Adjusted Use Case Points (AUCP)**:
+   - AUCP = UUCP * TCF * ECF = 115 * 1.2 * 0.8 = 110.4
+
+The values for TCF and ECF would normally be determined using a more detailed analysis based on specific factors and their associated weights.
