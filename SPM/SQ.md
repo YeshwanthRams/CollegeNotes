@@ -21,3 +21,33 @@ Planning quality in Strategic Project Management (SPM) is crucial for delivering
 18. **Measure Customer Satisfaction**: Get feedback from stakeholders and customers on the project's quality.
 
 Following these steps throughout the project lifecycle helps ensure high quality and meets stakeholder expectations.
+
+## ISO 9126
+Quality is software is not just about what the software does which is functionality specification, but also about quality specification and resource specification that is how well the software performs and the resources allocation.
+
+software system are complex and require maintenance, and users expect high quality, which can be challending to measure and assure. 
+
+- **ISO/IEC 9126 Standard Details**: It breaks down software quality into specific characteristics and sub-characteristics, offering metrics to evaluate them. It's versatile and can be tailored for different software types.
+
+- **Six Key Quality Characteristics**: 
+  1. **Functionality**: How well the software performs its intended tasks.
+        - includes suitability, accuracy, interoperability, compliance, and security.
+  2. **Efficiency**: The software's performance in terms of resource usage and speed.
+        - covers time behavior, resource utilization, and efficiency compliance.
+  3. **Maintainability**: How easily the software can be modified and maintained.
+        - includes analyzability, changeability, stability, testability, and maintainability compliance.
+  4. **Reliability**: The software's ability to function consistently and accurately.
+        - includes maturity, fault tolerance, recoverability, and reliability compliance.
+  5. **Usability**: How user-friendly and easy to understand the software is.
+        - involves understandability, learnability, operability, attractiveness, and usability compliance.
+  6. **Portability**: The ease with which the software can be transferred to different environments.
+        - encompasses adaptability, installability, co-existence, replaceability, and portability compliance
+
+  ![Alt text](ISO9126.png)
+
+- **Three Parts of ISO 9126**: 
+  1. **ISO/IEC 9126-1**: Focuses on defining the quality characteristics and their sub-characteristics.
+  2. **ISO/IEC 9126-2**: Deals with external metrics for evaluating software quality.
+  3. **ISO/IEC 9126-3**: Concentrates on internal metrics for quality assessment.
+
+ISO 9126 provides a comprehensive framework to define and assess the quality of software, ensuring clear communication between customers and developers and aiming to meet user expectations effectively.
