@@ -60,3 +60,7 @@ The Copyright Act of 1976, a fundamental legal framework in the United States, g
 - **Educational and Library Exceptions:** There are specific provisions that allow limited uses in educational settings and libraries.
 
 The Copyright Act of 1976 thus provides comprehensive protection to creators and copyright owners, ensuring they can control and benefit from their creations while balancing public interests with exceptions like fair use.
+
+
+## Patent Opposition 
+The Indian Patents Act of 1970 allows for two types of patent oppositions: pre-grant and post-grant. In the pre-grant opposition, anyone can challenge a patent application after its publication but before its grant, by writing to the controller. The controller then decides based on the evidence and submissions, and may grant, refuse, or require amendments to the patent. Post-grant opposition, on the other hand, is available within one year of the patent's grant publication. It's initiated by an 'interested person', such as someone involved in similar research or business. This opposition is reviewed by a three-member Opposition Board, and the controller makes a decision based on their report and hearings. Dissatisfied parties can appeal to the Appellate Board.
