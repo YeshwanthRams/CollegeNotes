@@ -81,3 +81,22 @@ Selecting and evaluating a trademark is a critical process that involves both cr
    - Prepare a trademark application that accurately reflects the mark and the goods or services it will represent.
 
 Selecting and evaluating a trademark is an essential investment in your brand's identity and legal protection. A carefully chosen and properly vetted trademark can become an invaluable asset to any business.
+
+## Trade Secret 
+A trade secret is a type of intellectual property that comprises information that is valuable to a business or company because it is not known to the public or to competitors. Trade secrets include practices, designs, formulas, processes, recipes, or any other business information that provides a competitive edge. The information must be subject to reasonable steps by the owner to keep it secret.
+
+### Duration of a Trade Secret:
+Trade secrets can potentially last indefinitely, as long as the information remains confidential and provides a competitive advantage. Unlike patents, which have a fixed term of protection (usually 20 years), the protection of a trade secret continues until it is lawfully disclosed or becomes common knowledge through other means.
+
+### Features of a Trade Secret:
+1. **Not Generally Known or Readily Ascertainable:** A trade secret must consist of information that is not generally known to the public or the business's competitors.
+
+2. **Economic Value:** The information must confer some sort of economic benefit to the business that possesses it because it is not widely known.
+
+3. **Efforts to Maintain Secrecy:** The business must take reasonable measures to keep the information secret. This could include non-disclosure agreements (NDAs), employee training programs, security measures, and access restrictions.
+
+4. **Not Registered:** Trade secrets are not registered with any governmental body, which is why their protection is not limited by time, but by the ability of the holder to maintain the information's secrecy.
+
+5. **Legal Protection:** If a trade secret is misappropriated (for example, if it is acquired, disclosed, or used by others without consent and through improper means), the owner can seek legal remedies, which may include injunctions and damages.
+
+Trade secrets are a valuable form of IP for many businesses, particularly when the information is not patentable or when the business does not wish to disclose the information required for a patent application. The protection of trade secrets is subject to the specific laws and practices of each country.
