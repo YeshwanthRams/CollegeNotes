@@ -23,7 +23,7 @@ The evolving landscape of trademark law, particularly in the context of the Inte
 
 These developments highlight the intricate relationship between trademark law and the digital domain, emphasizing the need for ongoing legal adaptation to address the unique challenges posed by the Internet. The establishment of ICANN and policies like ACPA and UDRP reflect efforts to protect trademarks in the ever-evolving online landscape.
 
-# IP Audit 
+## IP Audit 
 
 Intellectual Property (IP) audits are crucial exercises for companies to identify and protect their valuable intellectual assets. These audits are often underutilized, as many companies mistakenly believe that copyright protection is only essential for major literary works, neglecting other materials like marketing brochures. Similarly, measures to protect trade secrets are frequently overlooked. Law firms often offer IP audits to help companies uncover and secure their protectable IP.
 
